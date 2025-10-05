@@ -8,4 +8,4 @@ These scripts have been written for Debian 13 (Trixie).
 
 ## Usage
 
-Setup scripts are named setup-*.sh. Scripts to be copied to the host system are in the host directory and structured according to their intended locations on the host file system. 
+Setup scripts are named in the setup directory. Scripts to be copied to the host system are in the host directory and structured according to their intended locations on the host file system. 
