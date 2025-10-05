@@ -8,4 +8,11 @@ These scripts have been written for Debian 13 (Trixie).
 
 ## Usage
 
-Setup scripts are named in the setup directory. Scripts to be copied to the host system are in the host directory and structured according to their intended locations on the host file system. 
+Setup scripts are named in the setup directory. Scripts to be copied to the host system are in the host directory and structured according to their intended locations on the host file system.
+
+Clone the repository to the intended host and execute the scripts as appropriate. The repository needs to be copied to the host or the file copy operations will fail.
+
+```
+git clone https://github.com/ngkengwooi/headless-server
+cd headless-server
+```
