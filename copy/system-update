@@ -1,0 +1,8 @@
+#!/bin/bash -e
+# Copy to /usr/local/sbin/system-update and make executable
+
+apt-get update
+apt-get -y dist-upgrade
+apt-get -y autoremove --purge
+apt-get -y autoclean
+apt-get -y clean
